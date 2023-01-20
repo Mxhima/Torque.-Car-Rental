@@ -1,0 +1,75 @@
+.heading {
+  text-align: center;
+}
+
+.heading span {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.heading h1 {
+  font-size: 2rem;
+}
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 2rem;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.about-img {
+  width: 100%;
+}
+
+.about-text span {
+  font-weight: 500;
+  color: orange;
+  text-transform: uppercase;
+}
+
+.about-text p {
+  margin: 0.5rem 0 1.4rem;
+}
+
+.reviews-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.rev-img {
+  width: 100px;
+  height: 100px;
+}
+
+.rev-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 70%;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid orange;
+}
+
+.reviews-container .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.reviews-container .box h2 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0.5rem 0 0.5rem;
+}
+
+.reviews-container .box p {
+  font-style: oblique;
+}

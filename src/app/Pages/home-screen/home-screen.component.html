@@ -1,0 +1,88 @@
+<app-navbar></app-navbar>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <header>
+    <!-- Full Page Intro -->
+    <div class="view"
+      style="background-image: url('../../../assets/imgs/background-img.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      <!-- Mask & flexbox options-->
+      <div class="mask rgba-black-light align-items-center">
+        <!-- Content -->
+        <div class="container">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-12 mb-4 white-text text-center">
+              <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 my-4 pt-md-5 pt-5 wow fadeInDown"
+                data-wow-delay="0.3s"><strong>Welcome to Torque.</strong></h1>
+              <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+              <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Looking to rent a car for an upcoming vacation or business trip? In TORQUE, we make renting a car seamless so you can get right on your way.</strong></h5>
+              <a href="#" class="btn btn-outline-white wow fadeInDown">Rent Now</a>
+              <a href="/cars" class="btn btn-outline-white wow fadeInDown">Cars</a>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Content -->
+      </div>
+      <!-- Mask & flexbox options-->
+    </div>
+    <!-- Full Page Intro -->
+  </header>
+  <!--Main Layout-->
+  <main>
+  </main>
+  <!--Main Layout-->
+</body>
+<app-rental-panel></app-rental-panel>
+
+<!--How it works section-->
+<section class="howit" id="ride">
+  <div class="heading">
+    <span>How It Works.</span>
+    <h1>Rent with three easy steps !</h1>
+  </div>
+  <div class="howit-container">
+    <div class="box">
+      <i class="bx bxs-map"></i>
+      <h2>Choose a Location</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates incidunt earum esse assumenda quod architecto omnis acc</p>
+    </div>
+    <div class="box">
+      <i class="bx bxs-calendar-star"></i>
+      <h2>Pick a Date</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates incidunt earum esse assumenda quod architecto omnis acc</p>
+    </div>
+    <div class="box">
+      <i class="bx bx-car"></i>
+      <h2>Choose a Ride</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates incidunt earum esse assumenda quod architecto omnis acc</p>
+    </div>
+  </div>
+</section>
+
+<!--Most demanded vehicles-->
+
+<section class="demandedRides" id="dmd">
+  <div class="heading">
+    <span>Most Demanded Rides.</span>
+    <h1>Explore our most popular vehicles</h1>
+  </div>
+  <div class="demandedRides-container">
+    <!--carousel-->
+    <app-carousel></app-carousel>
+  </div>
+</section>
+<app-footer></app-footer>
+
+</html>

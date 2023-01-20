@@ -1,0 +1,97 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 1920px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #000 !important;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading span {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.heading h1 {
+  font-size: 2rem;
+}
+
+.howit-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px,auto));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.howit-container .box {
+  text-align: center;
+  padding: 20px;
+}
+
+.howit-container .box .bx {
+  font-size: 34px;
+  padding: 10px;
+  background: #eeeff1;
+  border-radius: 0.5rem;
+  color: orange;
+}
+
+.howit-container .box h2{
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 1.4rem 0 0.5rem;
+}
+
+.howit-container .box .bx:hover, .howit-container .bx .bxs-calendar-star {
+  background: orange;
+  color: #fff;
+}
+
+.howit-container .box .bx:hover, .howit-container .bx .bxs-map {
+  background: orange;
+  color: #fff;
+}
+
+.howit-container .box .bx:hover, .howit-container .bx .bx-car {
+  background: orange;
+  color: #fff;
+}
