@@ -14,6 +14,17 @@ header,
   }
 }
 
+.view .mask .container .row .btn {
+  background: rgba(0, 0, 0, 0.850);
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.view .mask .container .row .btn:hover {
+  background: #fff ;
+  color: orange;
+}
+
 .top-nav-collapse {
   background-color: #78909c !important;
 }
@@ -24,7 +35,7 @@ header,
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #000 !important;
+    background: rgba(0, 0, 0, 0.850) !important;
   }
 }
 

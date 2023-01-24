@@ -32,11 +32,11 @@
 }
 
 .form-container form .btn {
-  flex: 1 1 7rem;
+  flex: 1 1 4rem;
   padding: 10px 34px;
   border: none;
   border-radius: 0.5rem;
-  background: #000;
+  background: rgba(0, 0, 0, 0.850);
   color: #fff;
   font-size: 1rem;
   font-weight: 500;

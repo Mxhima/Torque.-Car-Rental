@@ -11,6 +11,8 @@ import { CarsScreenComponent } from './Pages/cars-screen/cars-screen.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RentalPanelComponent } from './components/rental-panel/rental-panel.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { SignupComponent } from './Pages/signup/signup.component';
+import { LoginComponent } from './Pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     FooterComponent,
     RentalPanelComponent,
     CarouselComponent,
+    SignupComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

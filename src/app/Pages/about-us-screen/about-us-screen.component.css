@@ -1,3 +1,19 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 1920px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 80vh;
+  }
+}
+
 .heading {
   text-align: center;
 }

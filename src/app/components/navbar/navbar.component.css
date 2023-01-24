@@ -1,6 +1,7 @@
 * {
   list-style: none;
 }
+
 header {
   position: fixed;
   width: 100%;
@@ -10,12 +11,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #cac6c67d;
   padding: 15px 100px;
+  background: transparent;
 }
 
 .navbar {
+  position: absolute;
   display: flex;
+  box-shadow: none;;
 }
 
 .navbar li {
@@ -57,12 +60,13 @@ header {
   font-weight: 500;
 }
 
-.header-btn .login {
-  background: #fff;
-  color: orangered;
+.header-btn .btn {
+  background: rgba(0, 0, 0, 0.850);
+  color: #fff;
   border-radius: 0.5rem;
 }
 
-.header-btn .login:hover {
-
+.header-btn .btn:hover {
+  background: #fff ;
+  color: orange;
 }
