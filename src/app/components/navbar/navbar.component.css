@@ -12,17 +12,24 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 15px 100px;
-  background: transparent;
+  background: #FFA519;
 }
 
 .navbar {
   position: absolute;
   display: flex;
-  box-shadow: none;;
+  box-shadow: none;
 }
 
 .navbar li {
   position: relative;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar a {

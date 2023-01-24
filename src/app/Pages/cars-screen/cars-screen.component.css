@@ -14,6 +14,10 @@ header,
   }
 }
 
+.carCont {
+  height: 1000px;
+}
+
 .heading {
   text-align: center;
 }
