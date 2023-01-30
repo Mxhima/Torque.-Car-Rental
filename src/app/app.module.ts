@@ -4,16 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { HomeScreenComponent } from './Pages/home-screen/home-screen.component';
-import { AboutUsScreenComponent } from './Pages/about-us-screen/about-us-screen.component';
-import { ContactUsScreenComponent } from './Pages/contact-us-screen/contact-us-screen.component';
-import { CarsScreenComponent } from './Pages/cars-screen/cars-screen.component';
+import { HomeScreenComponent } from '../app/components/home-screen/home-screen.component';
+import { AboutUsScreenComponent } from '../app/components/about-us-screen/about-us-screen.component';
+import { ContactUsScreenComponent } from '../app/components/contact-us-screen/contact-us-screen.component';
+import { CarsScreenComponent } from '../app/components/cars-screen/cars-screen.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RentalPanelComponent } from './components/rental-panel/rental-panel.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
-import { SignupComponent } from './Pages/signup/signup.component';
-import { LoginComponent } from './Pages/login/login.component';
-import { ProfileScreenComponent } from './Pages/profile-screen/profile-screen.component';
+import { SignupComponent } from '../app/components/signup/signup.component';
+import { LoginComponent } from '../app/components/login/login.component';
+import { ProfileScreenComponent } from '../app/components/profile-screen/profile-screen.component';
 
 @NgModule({
   declarations: [
