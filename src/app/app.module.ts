@@ -13,6 +13,7 @@ import { RentalPanelComponent } from './components/rental-panel/rental-panel.com
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { SignupComponent } from './Pages/signup/signup.component';
 import { LoginComponent } from './Pages/login/login.component';
+import { ProfileScreenComponent } from './Pages/profile-screen/profile-screen.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { LoginComponent } from './Pages/login/login.component';
     CarouselComponent,
     SignupComponent,
     LoginComponent,
+    ProfileScreenComponent,
   ],
   imports: [
     BrowserModule,

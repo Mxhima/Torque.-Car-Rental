@@ -1,27 +1,17 @@
 <app-navbar></app-navbar>
 
-<header>
-  <!-- Full Page Intro -->
-  <div class="view"
-    style="background-image: url('../../../assets/imgs/background-img.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-    <!-- Mask & flexbox options-->
-    <div class="mask rgba-black-light align-items-center">
-    </div>
-    <!-- Mask & flexbox options-->
-  </div>
-  <!-- Full Page Intro -->
-</header>
+
 
 <!--About Us-->
-<section class="about mx-4" id="abt">
-  <div class="heading my-4">
+<section class="about mx-4 my-6" id="abt">
+  <div class="heading">
     <h1>About Us</h1>
     <span>Best Customer Experience</span>
   </div>
 
   <div class="about-container">
     <div class="about-img">
-      <img src="" alt="">
+      <img src="../../../assets/imgs/about.png" alt="">
     </div>
     <div class="about-text">
       <span>About Us</span>
@@ -33,8 +23,8 @@
 
 <!--Comments from customers-->
 
-<section class="comments mx-4" id="cmnts">
-  <div class="heading my-4">
+<section class="comments mx-4 my-6" id="cmnts">
+  <div class="heading">
     <h1>What our Customers say</h1>
     <span>Reviews</span>
   </div>
@@ -42,7 +32,7 @@
   <div class="reviews-container">
     <div class="box">
       <div class="rev-img">
-        <img src="" alt="">
+        <img src="../../../assets/imgs/rev1.jpg" alt="">
       </div>
       <h2>Some name</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, hic? Repudiandae accusamus harum nulla
@@ -52,7 +42,7 @@
 
     <div class="box">
       <div class="rev-img">
-        <img src="" alt="">
+        <img src="../../../assets/imgs/rev2.jpg" alt="">
       </div>
       <h2>Some name</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, hic? Repudiandae accusamus harum nulla
@@ -62,7 +52,7 @@
 
     <div class="box">
       <div class="rev-img">
-        <img src="" alt="">
+        <img src="../../../assets/imgs/rev3.jpg" alt="">
       </div>
       <h2>Some name</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, hic? Repudiandae accusamus harum nulla
@@ -74,67 +64,61 @@
 
 <!--FAQ Section-->
 
-<div class="heading my-4">
-  <h1>Frequently Asked Questions</h1>
-  <span>Reviews</span>
-</div>
+<section class="faqs mx-5 my-6" id="faq">
 
-<section class="faqs mx-5 mb-4" id="faq">
-  <div class="accordion w-100" id="basicAccordion">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-          data-mdb-target="#basicAccordionCollapseOne" aria-expanded="false" aria-controls="collapseOne">
-          Question #1
-        </button>
-      </h2>
-      <div id="basicAccordionCollapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-        data-mdb-parent="#basicAccordion" style="">
-        <div class="accordion-body">
-          <strong>This is the first item's accordion body.</strong> It is shown by default,
-          until the collapse plugin adds the appropriate classes that we use to style each
-          element. These classes control the overall appearance, as well as the showing and
-          hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-          our default variables. It's also worth noting that just about any HTML can go within
-          the <code>.accordion-body</code>, though the transition does limit overflow.
+  <div class="heading">
+    <h1>Frequently Asked Questions</h1>
+    <span>Reviews</span>
+  </div>
+
+  <div class="accordion mb-6" id="basicAccordion">
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Age requirements for renters ?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <strong>Torque rents vehicles to individuals who are 25 or older.</strong>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-          data-mdb-target="#basicAccordionCollapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Question #2
-        </button>
-      </h2>
-      <div id="basicAccordionCollapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-        data-mdb-parent="#basicAccordion" style="">
-        <div class="accordion-body">
-          <strong>This is the second item's accordion body.</strong> It is hidden by default,
-          until the collapse plugin adds the appropriate classes that we use to style each
-          element. These classes control the overall appearance, as well as the showing and
-          hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-          our default variables. It's also worth noting that just about any HTML can go within
-          the <code>.accordion-body</code>, though the transition does limit overflow.
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Forms of payment ?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <strong>Torque accepts most major credit cards, as well as Visa and Mastercard debit cards, and you can pay using paypal as a form of payment.</strong>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-          data-mdb-target="#basicAccordionCollapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Question #3
-        </button>
-      </h2>
-      <div id="basicAccordionCollapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-        data-mdb-parent="#basicAccordion" style="">
-        <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default,
-          until the collapse plugin adds the appropriate classes that we use to style each
-          element. These classes control the overall appearance, as well as the showing and
-          hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-          our default variables. It's also worth noting that just about any HTML can go within
-          the <code>.accordion-body</code>, though the transition does limit overflow.
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            How much does it cost to rent a car ?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <strong>Car rental cost depends on a few factors such as location, availability, vehicle, length of the contract.<a routerLink="/cars"> See here for more details about each vehicle.</a></strong>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Do I need to return the vehicle with a full tank ?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+          <div class="accordion-body">
+            <strong>Torque does not encourage that thought./</strong>
+          </div>
         </div>
       </div>
     </div>

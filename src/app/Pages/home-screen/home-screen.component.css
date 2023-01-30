@@ -1,8 +1,11 @@
+
+
 html,
 body,
 header,
 .view {
   height: 100%;
+  margin-top: 40px;
 }
 
 @media (max-width: 1920px) {
@@ -14,15 +17,20 @@ header,
   }
 }
 
-.view .mask .container .row .btn {
+.view .mask .container .row .homeInfo .btn {
   background: rgba(0, 0, 0, 0.850);
   color: #fff;
   border-radius: 0.5rem;
+  text-align: center;
 }
 
-.view .mask .container .row .btn:hover {
+.view .mask .container .row .homeInfo .btn:hover {
   background: #fff ;
   color: orange;
+}
+
+.view .mask .container .row .homeInfo {
+  margin-top: 45px;
 }
 
 .top-nav-collapse {
@@ -33,7 +41,7 @@ header,
   background: transparent !important;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 400px) {
   .navbar:not(.top-nav-collapse) {
     background: rgba(0, 0, 0, 0.850) !important;
   }
@@ -63,6 +71,7 @@ h5 {
 
 .heading h1 {
   font-size: 2rem;
+  color: orange;
 }
 
 .howit-container {
@@ -76,6 +85,9 @@ h5 {
 .howit-container .box {
   text-align: center;
   padding: 20px;
+  box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  margin: 10px;
 }
 
 .howit-container .box .bx {
