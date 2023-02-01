@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { NavbarComponent } from '../navbar/navbar.component';
+import { FooterComponent } from '../footer/footer.component';
 import { ContactUsScreenComponent } from './contact-us-screen.component';
 
 describe('ContactUsScreenComponent', () => {
@@ -8,7 +9,7 @@ describe('ContactUsScreenComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ContactUsScreenComponent ]
+      declarations: [ ContactUsScreenComponent, NavbarComponent, FooterComponent ]
     })
     .compileComponents();
 

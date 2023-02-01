@@ -1,39 +1,48 @@
 <div class="form-container">
-  <form action="">
+  <form [formGroup]="formGrp" #login="ngForm" (ngSubmit)="submit(login.value)">
     <div class="input-box">
       <span>Location</span>
-      <input type="search" name="" id="" placeholder="Search Places">
+      <input type="search" name="" id="" placeholder="Search Places" ngModel formControlName="location">
     </div>
 
     <div class="input-box">
       <span>Pick-up Date</span>
-      <input type="date" name="" id="">
+      <input type="date" name="" id="" ngModel formControlName="pickupDate">
     </div>
 
     <div class="input-box">
       <span>Pick-up Time</span>
-      <input type="time" name="" id="">
+      <input type="time" name="" id="" ngModel formControlName="pickupTime">
     </div>
 
     <div class="input-box">
       <span>Return Date</span>
-      <input type="date" name="" id="">
+      <input type="date" name="" id="" ngModel formControlName="returnDate">
     </div>
 
     <div class="input-box">
       <span>Return Time</span>
-      <input type="time" name="" id="">
+      <input type="time" name="" id="" ngModel formControlName="returnTime">
+      <input [(ngModel)]="email" [hidden]="true" ngModel formControlName="email" />
     </div>
 
     <div class="input-box">
       <span>Car Category</span>
-      <select name="cars" id="cars">
-          <option value="electric">Electric</option>
-          <option value="hatchback">Hatchback</option>
+      <select name="carCategory" id="categs" ngModel formControlName="carCategory">
+        <option value="electric">Exotic</option>
+        <option value="hatchback">Hatchback</option>
+        <option value="hatchback">Electric</option>
       </select>
     </div>
 
-    <input type="submit" name="Search" id="" class="btn">
+    <div class="input-box">
+      <span>Car</span>
+      <select name="cars" id="cars" ngModel formControlName="carModel">
+        <option value="electric">Electric</option>
+        <option value="hatchback">Hatchback</option>
+      </select>
+    </div>
 
+    <input routerLink="/paypal" type="submit" value="Rent" name="Search" id="" class="btn">
   </form>
 </div>

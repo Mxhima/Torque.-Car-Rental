@@ -1,1 +1,31 @@
-<p>profile-screen works!</p>
+<app-navbar></app-navbar>
+
+<div class="container">
+  <div class="row" style="height: 700px;">
+    <div class="tablediv">
+      <table class="table">
+          <thead class="theadbak">
+              <tr>
+                  <th scope="col">Location</th>
+                  <th scope="col">Pickup Date</th>
+                  <th scope="col">Pickup Time</th>
+                  <th scope="col">Return Date</th>
+                  <th scope="col">Return Time</th>
+              </tr>
+          </thead>
+          <tbody class="table-group-divider">
+              <tr *ngFor="let order of orders">
+                  <th scope="row">{{order.location}}</th>
+                  <td>{{order.pickupDate}}</td>
+                  <td>{{order.pickupTime}}</td>
+                  <td>{{order.returnDate}}</td>
+                  <td>{{order.returnTime}}</td>
+              </tr>
+          </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<app-footer></app-footer>

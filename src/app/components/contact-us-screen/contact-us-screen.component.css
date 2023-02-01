@@ -28,6 +28,11 @@
   background: orange;
 }
 
+.container {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .container .contactBox {
   margin-top: 100px;
   display: flex;

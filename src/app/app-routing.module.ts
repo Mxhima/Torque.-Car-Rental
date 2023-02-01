@@ -6,6 +6,8 @@ import { ContactUsScreenComponent } from '../app/components/contact-us-screen/co
 import { HomeScreenComponent } from '../app/components/home-screen/home-screen.component';
 import { LoginComponent } from '../app/components/login/login.component';
 import { SignupComponent } from '../app/components/signup/signup.component';
+import { PaypalScreenComponent } from './components/paypal-screen/paypal-screen.component';
+import { ProfileScreenComponent } from './components/profile-screen/profile-screen.component';
 
 const routes: Routes = [
   { path: '', component: HomeScreenComponent},
@@ -14,6 +16,8 @@ const routes: Routes = [
   { path: 'cars', component: CarsScreenComponent},
   { path: 'sign-up', component: SignupComponent},
   { path: 'login', component: LoginComponent},
+  { path: 'paypal', component:PaypalScreenComponent},
+  { path: 'profile', component: ProfileScreenComponent }
 ];
 
 @NgModule({

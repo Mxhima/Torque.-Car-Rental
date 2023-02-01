@@ -13,3 +13,24 @@ height: calc(100% - 73px);
 height: 100%;
 }
 }
+
+.row .p {
+  color: orange;
+}
+
+.row .login .btn {
+  flex: 1 1 4rem;
+  padding: 10px 34px;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgba(0, 0, 0, 0.850);
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 500;
+
+}
+
+.row .login .btn:hover {
+  background: orange;
+  box-shadow: none;
+}

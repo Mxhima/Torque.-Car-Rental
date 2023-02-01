@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +17,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { SignupComponent } from '../app/components/signup/signup.component';
 import { LoginComponent } from '../app/components/login/login.component';
 import { ProfileScreenComponent } from '../app/components/profile-screen/profile-screen.component';
+import { PaypalScreenComponent } from './components/paypal-screen/paypal-screen.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -29,10 +34,14 @@ import { ProfileScreenComponent } from '../app/components/profile-screen/profile
     SignupComponent,
     LoginComponent,
     ProfileScreenComponent,
+    PaypalScreenComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

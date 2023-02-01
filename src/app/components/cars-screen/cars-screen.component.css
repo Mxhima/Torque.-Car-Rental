@@ -52,12 +52,11 @@ header,
 
 .cars-container .box .box-img {
   width: 100%;
-  height: 200px;
 }
 
 .cars-container .box .box-img img {
   width: 100%;
-  height: 100%;
+  height: 50vh;
   border-radius: 1rem;
   object-fit: cover;
   object-position: center;
